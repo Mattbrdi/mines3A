@@ -1,4 +1,4 @@
-RL
+RL revoir cours + exercice (pas à rendre)
 data 
 revoir ml_fundation + exo à rendre sur le site
 
