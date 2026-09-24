@@ -1,6 +1,0 @@
-#!/bin/bash
-
-pandoc \
-  -o paper.pdf \
-  --citeproc --bibliography=paper.bib \
-  paper.md
