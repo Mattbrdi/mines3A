@@ -1,0 +1,30 @@
+# Conda environment
+env
+
+# VS Code
+.vscode
+
+# Node
+node_modules
+package-lock.json
+
+# Misc.
+__pycache__
+misc 
+sandbox
+.tmp.py
+
+# Outputs
+images/*.svg
+*.html
+*.pdf
+*.ipynb
+videos/*.mp4
+
+# ... but for examples
+!examples/*
+
+
+# pixi environments
+.pixi
+*.egg-info
