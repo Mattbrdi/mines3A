@@ -1,6 +1,6 @@
-RL revoir cours + exercice (pas à rendre)
-data  revoir cours 2 et tp 
-deep learning for image analysis voir cours 2
+RL exercice cours 1 (pas à rendre)
+data  revoir cours 2 et revoir tp 
+deep learning for image analysis faire TP cours 2
 revoir ml_fundation + exo à rendre sur le site
 faire cours commande lineaire 1
 
