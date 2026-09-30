@@ -1,11 +1,19 @@
-RL exercice cours 1 (pas à rendre)
+RL :  exercice cours 1 (pas à rendre)
 revoir cours 2 RL value iteration 
+
+llm : rien 
+
 data  revoir cours 2 et revoir tp 
-deep learning for image analysis faire TP cours 2
-revoir ml_fundation + exo à rendre sur le site
+
+deep learning for image analysis faire TP cours 2 à envoyer avant la séance
+
+ml_fundation 
+
+mareva : 
 faire cours commande lineaire 1
 
 bonus si le temps : 
 voir filtre de kalman cours capteurs 
+
 
 
