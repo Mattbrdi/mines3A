@@ -1,4 +1,5 @@
 RL exercice cours 1 (pas à rendre)
+
 revoir cours 2 RL value iteration 
 data  revoir cours 2 et revoir tp 
 deep learning for image analysis faire TP cours 2
