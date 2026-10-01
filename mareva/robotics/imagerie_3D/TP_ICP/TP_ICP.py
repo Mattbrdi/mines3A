@@ -1,4 +1,4 @@
-# TP MAREVA Nuages de Points et Modélisation 3D - Python - FG 24/09/2020
+# TP MAREVA Nuages de Points et Modï¿½lisation 3D - Python - FG 24/09/2020
 # coding=utf8
 
 # Import Numpy
@@ -22,7 +22,7 @@ def read_data_ply(path):
     '''
     Lecture de nuage de points sous format ply
     Inputs :
-        path = chemin d'accès au fichier
+        path = chemin d'accï¿½s au fichier
     Output :
         data = matrice (3 x n)
     '''
@@ -35,7 +35,7 @@ def write_data_ply(data,path):
     Ecriture de nuage de points sous format ply
     Inputs :
         data = matrice (3 x n)
-        path = chemin d'accès au fichier
+        path = chemin d'accï¿½s au fichier
     '''
     write_ply(path, data.T, ['x', 'y', 'z'])
     
@@ -57,28 +57,28 @@ def show3D(data):
 
 def decimate(data,k_ech):
     '''
-    Décimation
+    Dï¿½cimation
     # ----------
     Inputs :
         data = matrice (3 x n)
-        k_ech : facteur de décimation
+        k_ech : facteur de dï¿½cimation
     Output :
         decimated = matrice (3 x (n/k_ech))
     '''
 
     if True:    
-        # 1ère méthode : boucle for
+        # 1ï¿½re mï¿½thode : boucle for
         n = data.shape[1]
         n_ech=int(n/k_ech)
         
         decimated = np.vstack(data[:, 0])
-            # compléter par une boucle for i in range
+            # complï¿½ter par une boucle for i in range
             # Xi = vecteur du rang k_ech*i (utiliser np.vstack)
-            # concaténer Xi à decimated en utilisant np.hstack
+            # concatï¿½ner Xi ï¿½ decimated en utilisant np.hstack
 
     #else:
-        # 2e méthode : fonction de Numpy array
-        #decimated = sous-tableau des colonnes espacées de k_ech
+        # 2e mï¿½thode : fonction de Numpy array
+        #decimated = sous-tableau des colonnes espacï¿½es de k_ech
         
     return(decimated)
 
@@ -98,10 +98,10 @@ def best_rigid_transform(data, ref):
     '''
 
     # Barycenters
-    # définir les baycentres ref_center et data_center
+    # dï¿½finir les baycentres ref_center et data_center
     
     # Centered clouds
-    # calculer les nuages de points centrés ref_c et data_c
+    # calculer les nuages de points centrï¿½s ref_c et data_c
 
     # H matrix
     # calculer la matrice H
@@ -110,7 +110,7 @@ def best_rigid_transform(data, ref):
     # calculer U, S, et Vt en utilisant np.linalg.svd
 
     # Checking R determinant
-    # si le déterminant de U est -1, prendre son opposé
+    # si le dï¿½terminant de U est -1, prendre son opposï¿½
 
     # Getting R and T
     # calculer R et T
@@ -197,20 +197,21 @@ if __name__ == '__main__':
     NDC_o=read_data_ply(NDC_o_path)
 
     # Visualisation du fichier d'origine
-    if False:
+    if True:
+        
         show3D(bunny_o)
 
-    # Transformations : décimation, rotation, translation, échelle
+    # Transformations : dï¿½cimation, rotation, translation, ï¿½chelle
     # ------------------------------------------------------------
     if False:
-        # Décimation        
+        # Dï¿½cimation        
         k_ech=10
         decimated = decimate(bunny_o,k_ech)
         
-        # Visualisation sous Python et par écriture de fichier
+        # Visualisation sous Python et par ï¿½criture de fichier
         show3D(decimated)
         
-        # Visualisation sous CloudCompare après écriture de fichier
+        # Visualisation sous CloudCompare aprï¿½s ï¿½criture de fichier
         write_data_ply(decimated,bunny_r_path)
         # Puis ouvrir le fichier sous CloudCompare pour le visualiser
 
@@ -222,7 +223,7 @@ if __name__ == '__main__':
 
     if False:        
         # Translation
-        # translation = définir vecteur [0, -0.1, 0.1] avec np.array et reshape
+        # translation = dï¿½finir vecteur [0, -0.1, 0.1] avec np.array et reshape
         points=bunny_o + translation
         show3D(points)
         
@@ -232,18 +233,18 @@ if __name__ == '__main__':
         show3D(points)
         
         # Echelle
-        # points = points divisés par 2
+        # points = points divisï¿½s par 2
         show3D(points)
         
         # Define the rotation matrix (rotation of angle around z-axis)
         # angle de pi/3,
-        # définir R avec np.array et les cos et sin.
+        # dï¿½finir R avec np.array et les cos et sin.
         
         # Apply the rotation
         points=bunny_o
         # centrer le nuage de points        
         # appliquer la rotation - utiliser la fonction .dot
-        # appliquer la translation opposée
+        # appliquer la translation opposï¿½e
         show3D(points)
 
 
