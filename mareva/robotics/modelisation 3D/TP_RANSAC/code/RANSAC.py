@@ -23,6 +23,7 @@
 
 
 # Import numpy package and name it "np"
+
 import numpy as np
 
 # Import functions to read and write ply files
@@ -43,13 +44,15 @@ import time
 
 
 def compute_plane(points):
+    point = points[0]
+    x = points[1] - points[0]
+    y = points[2] - points[0]
+    normal = np.cross(x, y)
+    normal_norm = np.linalg.norm(normal)
+    if normal_norm == 0:
+        raise ValueError('The three points do not define a plane')
+    normal = normal / normal_norm
 
-    
-    point = np.zeros((3,1))
-    normal = np.zeros((3,1))
-    
-    # TODO
-    
     return point, normal
 
 
@@ -58,28 +61,73 @@ def in_plane(points, ref_pt, normal, threshold_in=0.1):
     indices = np.zeros(len(points), dtype=bool)
     
     # TODO: return a boolean mask of points in range
+    return np.abs(np.dot((points - ref_pt), normal)) < threshold_in
+
+    # for i in range(len(points)): 
+    #     x = points[i] - ref_pt 
+    #     eps = np.abs(x@normal) 
+    #     indices[i] = eps < threshold_in
         
-    return indices
+    # return indices
 
 
 def RANSAC(points, NB_RANDOM_DRAWS=100, threshold_in=0.1):
-    
-    best_ref_pt = np.zeros((3,1))
-    best_normal = np.zeros((3,1))
-    
-    # TODO:
-                
+    if len(points) < 3 or NB_RANDOM_DRAWS < 1 or threshold_in <= 0:
+        raise ValueError('RANSAC needs at least three points, one draw and a positive threshold')
+
+    best_ref_pt = None
+    best_normal = None
+    best_vote = 0
+    rng = np.random.default_rng()
+    for k in range(NB_RANDOM_DRAWS):
+        choosen_points = rng.choice(points, size=3, replace=False)
+        try:
+            ref_pt, normal = compute_plane(choosen_points)
+        except ValueError:
+            continue
+        vote = in_plane(points, ref_pt, normal, threshold_in).sum()
+
+        if vote > best_vote:
+            best_normal = normal
+            best_ref_pt = ref_pt
+            best_vote = vote
+
+    if best_ref_pt is None:
+        raise ValueError('No valid plane found')
     return best_ref_pt, best_normal
 
 
 def multi_RANSAC(points, NB_RANDOM_DRAWS=100, threshold_in=0.1, NB_PLANES=2):
-    
-    plane_inds = np.zeros((1,))
-    remaining_inds = np.zeros((1,))
-    plane_labels = np.zeros((1,))
+    """Extract planes, returning original indices and a label per extracted point."""
+    if NB_RANDOM_DRAWS < 1 or threshold_in <= 0:
+        raise ValueError('RANSAC needs at least one draw and a positive threshold')
 
-    # TODO:
-    
+    plane_inds = np.empty(0, dtype=int)
+    remaining_inds = np.arange(len(points))
+    plane_labels = np.empty(0, dtype=int)
+
+    for plane_label in range(NB_PLANES):
+        if len(remaining_inds) < 3:
+            break
+
+        remaining_points = points[remaining_inds]
+        try:
+            ref_pt, normal = RANSAC(remaining_points, NB_RANDOM_DRAWS, threshold_in)
+        except ValueError:
+            # No non-degenerate plane was found among the remaining points.
+            break
+
+        mask = in_plane(remaining_points, ref_pt, normal, threshold_in)
+        if mask.sum() < 3:
+            break
+
+        # Map the local mask back to indices in the original cloud.
+        selected_inds = remaining_inds[mask]
+        plane_inds = np.concatenate((plane_inds, selected_inds))
+        plane_labels = np.concatenate((plane_labels,
+                                       np.full(len(selected_inds), plane_label, dtype=int)))
+        remaining_inds = remaining_inds[~mask]
+
     return plane_inds, remaining_inds, plane_labels
 
 
