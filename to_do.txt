@@ -7,7 +7,7 @@ data  revoir cours 2 et revoir tp
 
 deep learning for image analysis faire TP cours 2 à envoyer avant la séance
 
-ml_fundation 
+ml_fundation : rattraper cours 2 + exo a rendre
 
 mareva : 
 faire cours commande lineaire 1
