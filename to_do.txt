@@ -5,7 +5,7 @@ llm : rien
 
 data  revoir cours 2 et revoir tp + revoir cours 3  
 
-deep learning for image analysis faire TP cours 2 à envoyer avant la séance
+deep learning for image analysis faire TP cours 2 + lire cours 3
 
 ml_fundation : rattraper cours 2 + exo a rendre
 
