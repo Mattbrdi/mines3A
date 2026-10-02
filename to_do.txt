@@ -3,7 +3,7 @@ revoir cours 2 RL value iteration
 
 llm : rien 
 
-data  revoir cours 2 et revoir tp 
+data  revoir cours 2 et revoir tp + revoir cours 3  
 
 deep learning for image analysis faire TP cours 2 à envoyer avant la séance
 
