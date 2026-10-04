@@ -5,15 +5,16 @@ llm : rien
 
 data  revoir cours 2 et revoir tp + revoir cours 3  
 
-deep learning for image analysis faire TP cours 2 + lire cours 3
+deep learning for image analysis faire TP cours 2 + lire cours 3 
 
-ml_fundation : rattraper cours 2 + exo a rendre
+ml_fundation : rattraper cours 2 partie ridge regression encore
 
 mareva : 
-faire cours commande lineaire 1
+faire cours commande lineaire 1 2 et 3, 
+revoir commande non linéaire 
 
 bonus si le temps : 
-voir filtre de kalman cours capteurs 
+voir cours filtre kalman sylvère bonabel 
 
 
 
