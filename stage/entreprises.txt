@@ -3,3 +3,4 @@ Mistral
 Bedrock robotics
 Neuralink 
 STMicroelectronics
+Da vinci : robotique chirurgicale
