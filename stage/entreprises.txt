@@ -4,3 +4,4 @@ Bedrock robotics
 Neuralink 
 STMicroelectronics
 Da vinci : robotique chirurgicale
+Thales 
