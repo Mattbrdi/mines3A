@@ -13,8 +13,10 @@ mareva :
 faire cours commande lineaire 1 2 et 3, 
 revoir commande non linéaire 
 
+
 bonus si le temps : 
 voir cours filtre kalman sylvère bonabel 
+revoir observateur non linéaire
 
 
 
