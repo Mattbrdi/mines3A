@@ -1,11 +1,11 @@
-RL :  exercice cours 1 (pas à rendre)
+RL :  exercice cours 1 (pas à rendre) 
 revoir cours 2 RL value iteration 
 
 llm : rien 
 
 data  revoir cours 2 et revoir tp + revoir cours 3  
 
-deep learning for image analysis faire TP cours 2 + lire cours 3 
+deep learning for image analysis faire TP cours 2 + lire cours 3 + lire cours 4 + TP cours 4 
 
 ml fundation : nothing left
 
