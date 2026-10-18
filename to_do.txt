@@ -4,7 +4,7 @@ rattraper cours 3
 
 llm : rien, peut-etre regarder rapidement de quoi parlait le TP 
 
-data  revoir cours 2 et revoir tp + revoir cours 3  + voir coours 4 et installation TP + faire TP à rendre pour 29 octobre
+data  revoir tp cours 2 + revoir cours 3  + voir coours 4 et installation TP + faire TP à rendre pour 29 octobre
 
 deep learning for image analysis faire TP cours 2 + lire cours 3 + lire cours 4 + TP cours 4 lire cours 5 
 
