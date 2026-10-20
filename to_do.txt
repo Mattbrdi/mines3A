@@ -1,6 +1,5 @@
-RL :  exercice cours 1 (pas à rendre) 
-revoir cours 2 RL value iteration 
-rattraper cours 3 
+RL : 
+rattraper cours 4
 
 llm : rien, peut-etre regarder rapidement de quoi parlait le TP 
 
