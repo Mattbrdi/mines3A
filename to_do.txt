@@ -1,18 +1,18 @@
-RL :  exercice cours 1 (pas à rendre)
-revoir cours 2 RL value iteration 
+RL : 
+rattraper cours 4
 
-llm : rien 
+llm : regarder TP du 14/10
 
-data  revoir cours 2 et revoir tp + revoir cours 3  
+data  revoir tp cours 2 + revoir cours 3  + voir coours 4 et installation TP + faire TP à rendre pour 29 octobre
 
-deep learning for image analysis faire TP cours 2 + lire cours 3 
+deep learning for image analysis faire TP cours 2 + lire cours 3 + lire cours 4 + TP cours 4 lire cours 5 
 
-ml_fundation : rattraper cours 2 partie ridge regression encore
+ml fundation : faire exo mis sur le site et revoir chap 4
 
 mareva : 
 faire cours commande lineaire 1 2 et 3, 
 revoir commande non linéaire 
-
+revoir système à evenements discret
 
 bonus si le temps : 
 voir cours filtre kalman sylvère bonabel 
