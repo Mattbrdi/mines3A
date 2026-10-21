@@ -1,7 +1,7 @@
 RL : 
 rattraper cours 4
 
-llm : rien, peut-etre regarder rapidement de quoi parlait le TP 
+llm : regarder TP du 14/10
 
 data  revoir tp cours 2 + revoir cours 3  + voir coours 4 et installation TP + faire TP à rendre pour 29 octobre
 
