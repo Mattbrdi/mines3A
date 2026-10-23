@@ -3,11 +3,11 @@ rattraper cours 4
 
 llm : regarder TP du 14/10 + faire cours 21/10
 
-data : revoir tp wikipedia + revoir cours 3  + voir coours 4 et installation TP + faire TP à rendre pour 29 octobre
+data : revoir tp wikipedia + revoir cours 4 et 5  + installation TP + faire TP à rendre pour 29 octobre
 
-deep learning for image analysis : voir TP cours 2 + lire cours 3 + lire cours 4 + TP cours 4 lire cours 5 
+deep learning for image analysis : voir TP cours 2 + lire cours 3 + lire cours 4 + TP cours 4 lire cours 5 + cours 6 
 
-ml fundation : faire exo mis sur le site et revoir chap 4
+ml fundation : faire exo mis sur le site et revoir chap 5 + faire exo mis sur le site
 
 mareva : 
 faire cours commande lineaire 1 2 et 3, 
