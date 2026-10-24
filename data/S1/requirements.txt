@@ -1,0 +1,14 @@
+# MongoDB Practice Lab — Python dependencies
+#
+# Quickest setup (no conda needed):
+#   python -m venv .venv
+#   source .venv/bin/activate        # Windows: .venv\Scripts\activate
+#   pip install -r requirements.txt
+#
+# Or with conda (fast two-liner):
+#   conda create -n mongodb-lab python=3.10 -y
+#   conda run -n mongodb-lab pip install -r requirements.txt
+
+pymongo>=4.6        # MongoDB driver
+jupyterlab>=4.0     # Jupyter Lab interface (includes classic notebook)
+ipykernel>=6.0      # Python kernel for Jupyter
