@@ -8,3 +8,8 @@ Thales
 parrot (drone)
 regarder offre wandercraft 
 capgemini
+
+
+demandés : 
+-wandercraft 
+- exwayz (lidar,...)
