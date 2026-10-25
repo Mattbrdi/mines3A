@@ -13,3 +13,6 @@ capgemini
 demandés : 
 -wandercraft 
 - exwayz (lidar,...)
+- Parrot https://parrot-drones.talentview.io/jobs/39ypxz?source=linkedin : 
+- Dassault systeme (delmia) : https://www.3ds.com/careers/jobs/stage-physical-ai-virtual-twins-delmia-robotics-f-h-549653?src=JB-10122
+- STMicroelectronics
