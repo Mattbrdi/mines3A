@@ -1,9 +1,9 @@
 RL : 
-rattraper cours 4
+rattraper cours 4 rattraper cours 5 
 
 llm : regarder TP du 14/10 + faire cours 21/10
 
-data : revoir tp wikipedia + revoir cours 4 et 5  + installation TP + faire TP à rendre pour 29 octobre
+data : revoir tp wikipedia + revoir cours 5  + faire TP à rendre pour 29 octobre
 
 deep learning for image analysis : voir TP cours 2 + lire cours 3 + lire cours 4 + TP cours 4 lire cours 5 + cours 6 
 
