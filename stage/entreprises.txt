@@ -17,8 +17,10 @@ demandés :
 - Parrot https://parrot-drones.talentview.io/jobs/39ypxz?source=linkedin : 
 - Dassault systeme (delmia) : https://www.3ds.com/careers/jobs/stage-physical-ai-virtual-twins-delmia-robotics-f-h-549653?src=JB-10122
 - STMicroelectronics : Machine learning pour la microélectronique – F/H,
-- Artefact : https://www.artefact.com/job/rd-intern-fairness-in-deep-learning-paris/ -> Refus 
 - Schneider Stage - Physical AI pour l'Industrie du Futur - H/F
 - intuitive robots (nantes ) : https://www.intuitive-robots.com/fr/a-propos-intuitive-robots/offres-demploi-et-stages/
 - Spore.bio : https://careers.spore.bio/jobs/8539439-ml-internship
 -gen bio AI :https://apply.workable.com/withings/j/2BB306CFD1/apply/ 
+
+refus : 
+- Artefact : https://www.artefact.com/job/rd-intern-fairness-in-deep-learning-paris/ -> Refus 
