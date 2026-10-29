@@ -19,4 +19,4 @@ demandés :
 - WITHINGS https://apply.workable.com/withings/j/2BB306CFD1/apply/
 - SERVIER : AI driven drug discovery
 refus : 
-- Artefact : https://www.artefact.com/job/rd-intern-fairness-in-deep-learning-paris/ -> Refus 
+- Artefact : https://www.artefact.com/job/rd-intern-fairness-in-deep-learning-paris/ -> Refus car pas les bonnes dates 
