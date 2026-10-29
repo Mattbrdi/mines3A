@@ -6,6 +6,7 @@ Da vinci : robotique chirurgicale
 Thales
 Sanofi
 https://hiverobotics.fr/ 
+exotec 
 
 demandés : 
 -wandercraft 
