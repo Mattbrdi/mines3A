@@ -10,9 +10,9 @@ exotec
 datadog
 L'oreal, Hermes ...
 
-demandés : 
+demandés :
+- datadog
 -wandercraft 
-- exwayz (lidar,...)
 - Parrot https://parrot-drones.talentview.io/jobs/39ypxz?source=linkedin : 
 - Dassault systeme (delmia) : https://www.3ds.com/careers/jobs/stage-physical-ai-virtual-twins-delmia-robotics-f-h-549653?src=JB-10122
 - STMicroelectronics : Machine learning pour la microélectronique – F/H,
@@ -22,3 +22,4 @@ demandés :
 - SERVIER : AI driven drug discovery
 refus : 
 - Artefact : https://www.artefact.com/job/rd-intern-fairness-in-deep-learning-paris/ -> Refus car pas les bonnes dates 
+- exwayz (lidar,...)
