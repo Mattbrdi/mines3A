@@ -1,0 +1,6 @@
+# Bibliotheques utilisees dans le TP
+numpy
+matplotlib
+
+# Noyau Python pour executer le notebook (VS Code ou Jupyter)
+ipykernel
