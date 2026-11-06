@@ -20,6 +20,7 @@ demandés :
 - intuitive robots (nantes ) : https://www.intuitive-robots.com/fr/a-propos-intuitive-robots/offres-demploi-et-stages/
 - WITHINGS https://apply.workable.com/withings/j/2BB306CFD1/apply/
 - SERVIER : AI driven drug discovery
+- marso robotics candidature spontanée
 refus : 
 - Artefact : https://www.artefact.com/job/rd-intern-fairness-in-deep-learning-paris/ -> Refus car pas les bonnes dates 
 - exwayz (lidar,...)
