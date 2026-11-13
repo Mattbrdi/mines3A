@@ -22,6 +22,7 @@ demandés :
 - gobano robotics
 - alta ares ML engineer
 - UMA robotics
+- stanley robotics
 refus : 
 - Artefact : https://www.artefact.com/job/rd-intern-fairness-in-deep-learning-paris/ -> Refus car pas les bonnes dates 
 - exwayz (lidar,...)
