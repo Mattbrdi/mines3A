@@ -18,11 +18,12 @@ demandés :
 - intuitive robots (nantes ) : https://www.intuitive-robots.com/fr/a-propos-intuitive-robots/offres-demploi-et-stages/
 - WITHINGS https://apply.workable.com/withings/j/2BB306CFD1/apply/
 - marso robotics candidature spontanée
+- inbolt spontannée
+- gobano robotics
+- alta ares ML engineer
 refus : 
 - Artefact : https://www.artefact.com/job/rd-intern-fairness-in-deep-learning-paris/ -> Refus car pas les bonnes dates 
 - exwayz (lidar,...)
-- inbolt spontannée
-- gobano robotics
 
 en cours : 
 - datadog : rendu des exos 
