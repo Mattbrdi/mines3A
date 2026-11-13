@@ -30,5 +30,5 @@ refus :
 
 en cours : 
 - datadog : rendu des exos 
-- wandercraft : entretien mardi 15h
-- SERVIER : AI driven drug discovery : entretien à fixer
+- wandercraft : entretien mercredi 9h 
+- SERVIER : AI driven drug discovery : lundi 14
