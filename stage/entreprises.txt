@@ -1,0 +1,34 @@
+GE healthcare 
+Mistral 
+Bedrock robotics
+Neuralink 
+Da vinci : robotique chirurgicale
+Thales
+Sanofi
+https://hiverobotics.fr/ 
+exotec 
+datadog
+L'oreal, Hermes ...
+
+demandés :
+- Parrot https://parrot-drones.talentview.io/jobs/39ypxz?source=linkedin : 
+- Dassault systeme (delmia) : https://www.3ds.com/careers/jobs/stage-physical-ai-virtual-twins-delmia-robotics-f-h-549653?src=JB-10122
+- STMicroelectronics : Machine learning pour la microélectronique – F/H,
+- Schneider Stage - Physical AI pour l'Industrie du Futur - H/F
+- intuitive robots (nantes ) : https://www.intuitive-robots.com/fr/a-propos-intuitive-robots/offres-demploi-et-stages/
+- WITHINGS https://apply.workable.com/withings/j/2BB306CFD1/apply/
+- marso robotics candidature spontanée
+- inbolt spontannée
+- gobano robotics
+- alta ares ML engineer
+- UMA robotics
+- stanley robotics
+- deephealth
+refus : 
+- Artefact : https://www.artefact.com/job/rd-intern-fairness-in-deep-learning-paris/ -> Refus car pas les bonnes dates 
+- exwayz (lidar,...)
+
+en cours : 
+- datadog : rendu des exos 
+- wandercraft : entretien mercredi 9h 
+- SERVIER : AI driven drug discovery : lundi 14
