@@ -1,4 +1,3 @@
-GE healthcare 
 Mistral 
 Bedrock robotics
 Neuralink 
@@ -11,6 +10,7 @@ datadog
 L'oreal, Hermes ...
 
 demandés :
+- GE healthcare 
 - Parrot https://parrot-drones.talentview.io/jobs/39ypxz?source=linkedin : 
 - Dassault systeme (delmia) : https://www.3ds.com/careers/jobs/stage-physical-ai-virtual-twins-delmia-robotics-f-h-549653?src=JB-10122
 - STMicroelectronics : Machine learning pour la microélectronique – F/H,
@@ -23,6 +23,7 @@ demandés :
 - UMA robotics
 - stanley robotics
 - deephealth
+- doctolib
 refus : 
 - Schneider Stage - Physical AI pour l'Industrie du Futur - H/F
 - Artefact : https://www.artefact.com/job/rd-intern-fairness-in-deep-learning-paris/ -> Refus car pas les bonnes dates 
