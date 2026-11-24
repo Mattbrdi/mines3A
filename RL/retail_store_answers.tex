@@ -1,0 +1,109 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+
+\setlength{\parindent}{0pt}
+
+% ---------------------------------------------------------------------------
+% Answer boxes
+% ---------------------------------------------------------------------------
+% \textanswer{Qx.y}{...your text...}
+%   Boxed block for a written answer, limited to five lines of text.
+\newtcolorbox{textbox}[1]{%
+  enhanced, breakable=false,
+  colback=white, colframe=black!60, boxrule=0.6pt, arc=1mm,
+  fonttitle=\bfseries\small, coltitle=black, colbacktitle=black!8,
+  title={#1 \hfill \normalfont\itshape Answer in at most five lines of text},
+  height=7.2\baselineskip, valign=top}
+\newcommand{\textanswer}[2]{%
+  \begin{textbox}{#1}#2\end{textbox}}
+
+% \figureanswer{Qx.y}{file name (leave empty for placeholder)}{caption}
+%   Boxed block for a figure.
+\newtcolorbox{figbox}[1]{%
+  enhanced, breakable=false,
+  colback=white, colframe=blue!50!black, boxrule=0.6pt, arc=1mm,
+  fonttitle=\bfseries\small, coltitle=black, colbacktitle=blue!8,
+  title={#1 \hfill \normalfont\itshape Figure}, halign=center}
+\newcommand{\figureanswer}[3]{%
+  \begin{figbox}{#1}
+    \if\relax\detokenize{#2}\relax
+      \fbox{\parbox[c][5.5cm][c]{0.6\linewidth}{\centering\color{black!40}%
+        Insert figure here\\[2pt]\small(\texttt{\textbackslash includegraphics})}}%
+    \else
+      \includegraphics[width=0.7\linewidth]{#2}%
+    \fi\\[4pt]
+    \small #3
+  \end{figbox}}
+
+% ---------------------------------------------------------------------------
+\title{Retail Store Management --- Answer Sheet\\[2pt]
+  \large Master IASD, PSL --- 2025--2026}
+\author{Name: \rule{6cm}{0.4pt}}
+\date{}
+
+\begin{document}
+\maketitle
+
+
+% ===========================================================================
+\section*{1. Performance of Fixed Ordering Policies}
+
+\figureanswer{A. Plot the Monte Carlo estimate of $v_{\pi_3}(s)$, the policy that always orders 3 items.}{%
+}{Monte Carlo estimate of $v_{\pi_3}(s)$, for the policy ordering 3 units each week.}
+
+\textanswer{B. How did you chose the trajectory length and the number of Monte Carlo replications?}{%
+}
+
+\figureanswer{C. Plot the value function of fixed-ordering policies.}{%
+}{Value functions $v_{\pi_a}(s)$ of the fixed-ordering policies for $a = 0,\dots,m$.}
+
+\textanswer{D. What is the best choice among fixed ordering policies and how does it relates to the model? How do you know that there are better policies than fixed-ordering ones?}{%
+}
+
+% ===========================================================================
+\section*{2. Computing the Optimal Policy by Policy Iteration}
+
+\textanswer{E. Compute the optimal policy using Policy Iteration. How do you know it has converged? What does the policy do?}{%
+}
+
+\figureanswer{F. Plot the optimal value function.}{%
+}{Optimal value function $v_\star(s)$.}
+
+\textanswer{G. With what frequency is the optimal policy visiting state $s=m$? Why is the value function the highest in that state?}{%
+}
+
+% ===========================================================================
+\section*{3. Q-Learning}
+
+\figureanswer{H. Implement asynchronous Q-Learning with uniformly random exploration on a single trajectory of length $n = 10{,}000$ and plot the convergence of the state-action value table $Q_t$ in $\|\cdot\|_\infty$ norm (providing uncertainty measures).}{%
+}{$\|Q_t - q_\star\|_\infty$ as a function of $t$.}
+
+\figureanswer{I. Plot the convergence of the gredy policy $\pi_t$ associated to $Q_t$ in Hamming distance (providing uncertainty measures).}{%
+}{Hamming distance between the greedy policy $\pi_{t}$ and $\pi_\star$ as a function of $t$.}
+
+\textanswer{J. Why do the two figures above differs? What is the influence of the learning rate on convergence?}{%
+}
+
+% ===========================================================================
+\section*{4. Policy Gradient}
+
+\textanswer{K. Write the formula for $\nabla_\theta \log\pi_\theta(s,a)$}.{%
+}
+
+\figureanswer{L. Implement $n=2{,}000$ iterations of the policy gradient algorithm using, at each iteration, the REINFORCE gradient estimate computed on a trajectory initialized at a random initial state. Plot $\operatorname{mean}(v_{\pi_{\theta_k}}) - \operatorname{mean}(v_\star)$, where $\theta_k$ denotes the policy parameter estimate at iteration $k$ (providing uncertainty measures).}{%
+}{$\operatorname{mean}(v_{\pi_{\theta_k}}) - \operatorname{mean}(v_\star)$ as a function of the iteration $k$.}
+
+\textanswer{M. How did you chose the learning rate schedule and what is its influence? Why do we consider the mean of the value function in the above plot?}{%
+}
+
+\textanswer{N. Use $v_{\pi_{\theta_k}}(S_t)$ as a baseline in the REINFORCE formula, write the formula of the gradient estimator that you use on each trajectory. Does it improve the convergence behavior of the algorithm?}{%
+}
+
+\end{document}
